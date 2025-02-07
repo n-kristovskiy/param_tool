@@ -1,0 +1,19 @@
+; NR_CIT_mda_GMX_OPLS.top created by acpype (v: 2022.6.6) on Mon Nov  4 21:46:52 2024
+
+; Include forcefield parameters
+#include "ffoplsaa.itp"
+
+; Include NR_CIT_mda_GMX.itp topology
+#include "NR_CIT_mda_GMX.itp"
+
+; Ligand position restraints
+#ifdef POSRES_LIG
+#include "posre_NR_CIT_mda.itp"
+#endif
+
+[ system ]
+ NR_CIT_mda
+
+[ molecules ]
+; Compound        nmols
+ NR_CIT_mda       1     

@@ -1,0 +1,19 @@
+; CR_CIT_GMX_OPLS.top created by acpype (v: 2022.6.6) on Mon Nov  4 10:19:59 2024
+
+; Include forcefield parameters
+#include "ffoplsaa.itp"
+
+; Include CR_CIT_GMX.itp topology
+#include "CR_CIT_GMX.itp"
+
+; Ligand position restraints
+#ifdef POSRES_LIG
+#include "posre_CR_CIT.itp"
+#endif
+
+[ system ]
+ CR_CIT
+
+[ molecules ]
+; Compound        nmols
+ CR_CIT           1     

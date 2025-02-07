@@ -1,0 +1,19 @@
+; R_CIT_GMX_OPLS.top created by acpype (v: 2022.6.6) on Mon Nov  4 10:19:59 2024
+
+; Include forcefield parameters
+#include "ffoplsaa.itp"
+
+; Include R_CIT_GMX.itp topology
+#include "R_CIT_GMX.itp"
+
+; Ligand position restraints
+#ifdef POSRES_LIG
+#include "posre_R_CIT.itp"
+#endif
+
+[ system ]
+ R_CIT
+
+[ molecules ]
+; Compound        nmols
+ R_CIT            1     

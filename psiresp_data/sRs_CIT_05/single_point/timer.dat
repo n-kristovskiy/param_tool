@@ -1,0 +1,136 @@
+
+Host: node_13
+
+Timers On : Tue Dec 10 13:08:30 2024
+Timers Off: Tue Dec 10 13:08:56 2024
+
+Wall Time:       25.79 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+DFH: sparsity prep                  :      0.183u      0.017s      0.110w      1 calls
+Libint2ERI::Libint2ERI              :      0.350u      0.017s      0.206w      4 calls
+JK: (A|Q)^-1                        :      2.517u      0.333s      1.669w      1 calls
+JK: (A|mn)                          :      3.833u      0.017s      2.308w      2 calls
+JK: (Q|mn)                          :      3.217u      0.017s      1.941w      2 calls
+JK: (Q|mn) Write                    :      0.000u      0.217s      0.139w      2 calls
+HF: Form core H                     :      0.217u      0.000s      0.134w      1 calls
+HF: Form S/X                        :      0.017u      0.000s      0.011w      1 calls
+HF: Guess                           :      0.117u      0.000s      0.069w      1 calls
+SAD Guess                           :      0.117u      0.000s      0.066w      1 calls
+HF: Form G                          :     22.567u      5.050s     16.611w     11 calls
+JK: D                               :      0.000u      0.000s      0.003w     11 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w     11 calls
+JK: JK                              :     22.567u      5.050s     16.603w     11 calls
+JK: (Q|mn) Read                     :      0.017u      2.017s      1.240w     22 calls
+JK: J                               :      1.167u      0.033s      0.712w     22 calls
+JK: J1                              :      0.617u      0.017s      0.359w     22 calls
+JK: J2                              :      0.550u      0.017s      0.346w     22 calls
+JK: K                               :     20.850u      0.050s     12.537w     22 calls
+JK: K1                              :     16.650u      0.017s     10.007w     22 calls
+JK: K2                              :      4.200u      0.033s      2.528w     22 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w     11 calls
+HF: Form F                          :      0.017u      0.000s      0.003w     11 calls
+HF: Form D                          :      0.000u      0.000s      0.002w     11 calls
+HF: DIIS                            :      0.417u      0.117s      0.524w     10 calls
+HF: Form C                          :      0.183u      0.000s      0.100w     10 calls
+
+--------------------------------------------------------------------------------------
+DFH: sparsity prep                  :      0.183u      0.017s      0.110w      1 calls
+| Libint2ERI::Libint2ERI            :      0.117u      0.017s      0.073w      1 calls
+Libint2ERI::Libint2ERI              :      0.233u      0.000s      0.133w      2 calls
+JK: (A|Q)^-1                        :      2.517u      0.333s      1.669w      1 calls
+| Libint2ERI::Libint2ERI            :      0.000u      0.000s      0.000w      1 calls
+JK: (A|mn)                          :      3.833u      0.017s      2.308w      2 calls
+JK: (Q|mn)                          :      3.217u      0.017s      1.941w      2 calls
+JK: (Q|mn) Write                    :      0.000u      0.217s      0.139w      2 calls
+HF: Form core H                     :      0.217u      0.000s      0.134w      1 calls
+HF: Form S/X                        :      0.017u      0.000s      0.011w      1 calls
+HF: Guess                           :      0.117u      0.000s      0.069w      1 calls
+| SAD Guess                         :      0.117u      0.000s      0.066w      1 calls
+HF: Form G                          :     22.567u      5.050s     16.611w     11 calls
+| JK: D                             :      0.000u      0.000s      0.003w     11 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.000w     11 calls
+| JK: JK                            :     22.567u      5.050s     16.603w     11 calls
+| | JK: (Q|mn) Read                 :      0.017u      2.017s      1.240w     22 calls
+| | JK: J                           :      1.167u      0.033s      0.712w     22 calls
+| | | JK: J1                        :      0.617u      0.017s      0.359w     22 calls
+| | | JK: J2                        :      0.550u      0.017s      0.346w     22 calls
+| | JK: K                           :     20.850u      0.050s     12.537w     22 calls
+| | | JK: K1                        :     16.650u      0.017s     10.007w     22 calls
+| | | JK: K2                        :      4.200u      0.033s      2.528w     22 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.000w     11 calls
+HF: Form F                          :      0.017u      0.000s      0.003w     11 calls
+HF: Form D                          :      0.000u      0.000s      0.002w     11 calls
+HF: DIIS                            :      0.417u      0.117s      0.524w     10 calls
+HF: Form C                          :      0.183u      0.000s      0.100w     10 calls
+
+**************************************************************************************
+
+Host: node_13
+
+Timers On : Tue Dec 10 13:08:56 2024
+Timers Off: Tue Dec 10 13:09:23 2024
+
+Wall Time:       27.02 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+DFH: sparsity prep                  :      0.167u      0.017s      0.111w      1 calls
+Libint2ERI::Libint2ERI              :      0.333u      0.033s      0.205w      4 calls
+JK: (A|Q)^-1                        :      2.517u      0.350s      1.553w      1 calls
+JK: (A|mn)                          :      3.933u      0.000s      2.369w      2 calls
+JK: (Q|mn)                          :      3.500u      0.017s      2.099w      2 calls
+JK: (Q|mn) Write                    :      0.000u      0.250s      0.151w      2 calls
+HF: Form core H                     :      0.233u      0.000s      0.139w      1 calls
+HF: Form S/X                        :      0.017u      0.000s      0.012w      1 calls
+HF: Guess                           :      0.100u      0.017s      0.070w      1 calls
+SAD Guess                           :      0.100u      0.017s      0.067w      1 calls
+HF: Form G                          :     24.017u      5.333s     17.984w     11 calls
+JK: D                               :      0.017u      0.000s      0.003w     11 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w     11 calls
+JK: JK                              :     23.983u      5.333s     17.976w     11 calls
+JK: (Q|mn) Read                     :      0.033u      2.283s      1.375w     23 calls
+JK: J                               :      1.400u      0.050s      0.806w     23 calls
+JK: J1                              :      0.717u      0.033s      0.407w     23 calls
+JK: J2                              :      0.667u      0.000s      0.391w     23 calls
+JK: K                               :     22.083u      0.033s     13.316w     23 calls
+JK: K1                              :     17.900u      0.017s     10.795w     23 calls
+JK: K2                              :      4.167u      0.017s      2.518w     23 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w     11 calls
+HF: Form F                          :      0.000u      0.000s      0.003w     11 calls
+HF: Form D                          :      0.017u      0.000s      0.002w     11 calls
+HF: DIIS                            :      0.400u      0.083s      0.470w     10 calls
+HF: Form C                          :      0.150u      0.000s      0.097w     10 calls
+
+--------------------------------------------------------------------------------------
+DFH: sparsity prep                  :      0.167u      0.017s      0.111w      1 calls
+| Libint2ERI::Libint2ERI            :      0.100u      0.017s      0.073w      1 calls
+Libint2ERI::Libint2ERI              :      0.233u      0.000s      0.131w      2 calls
+JK: (A|Q)^-1                        :      2.517u      0.350s      1.553w      1 calls
+| Libint2ERI::Libint2ERI            :      0.000u      0.017s      0.000w      1 calls
+JK: (A|mn)                          :      3.933u      0.000s      2.369w      2 calls
+JK: (Q|mn)                          :      3.500u      0.017s      2.099w      2 calls
+JK: (Q|mn) Write                    :      0.000u      0.250s      0.151w      2 calls
+HF: Form core H                     :      0.233u      0.000s      0.139w      1 calls
+HF: Form S/X                        :      0.017u      0.000s      0.012w      1 calls
+HF: Guess                           :      0.100u      0.017s      0.070w      1 calls
+| SAD Guess                         :      0.100u      0.017s      0.067w      1 calls
+HF: Form G                          :     24.017u      5.333s     17.984w     11 calls
+| JK: D                             :      0.017u      0.000s      0.003w     11 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.000w     11 calls
+| JK: JK                            :     23.983u      5.333s     17.976w     11 calls
+| | JK: (Q|mn) Read                 :      0.033u      2.283s      1.375w     23 calls
+| | JK: J                           :      1.400u      0.050s      0.806w     23 calls
+| | | JK: J1                        :      0.717u      0.033s      0.407w     23 calls
+| | | JK: J2                        :      0.667u      0.000s      0.391w     23 calls
+| | JK: K                           :     22.083u      0.033s     13.316w     23 calls
+| | | JK: K1                        :     17.900u      0.017s     10.795w     23 calls
+| | | JK: K2                        :      4.167u      0.017s      2.518w     23 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.000w     11 calls
+HF: Form F                          :      0.000u      0.000s      0.003w     11 calls
+HF: Form D                          :      0.017u      0.000s      0.002w     11 calls
+HF: DIIS                            :      0.400u      0.083s      0.470w     10 calls
+HF: Form C                          :      0.150u      0.000s      0.097w     10 calls
+
+**************************************************************************************

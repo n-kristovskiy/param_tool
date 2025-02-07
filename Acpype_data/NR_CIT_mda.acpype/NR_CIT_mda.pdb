@@ -1,0 +1,58 @@
+HEADER    
+TITLE     MDANALYSIS FRAME 0: Created by PDBWriter
+CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1
+REMARK     285 UNITARY VALUES FOR THE UNIT CELL AUTOMATICALLY SET
+REMARK     285 BY MDANALYSIS PDBWRITER BECAUSE UNIT CELL INFORMATION
+REMARK     285 WAS MISSING.
+REMARK     285 PROTEIN DATA BANK CONVENTIONS REQUIRE THAT
+REMARK     285 CRYST1 RECORD IS INCLUDED, BUT THE VALUES ON
+REMARK     285 THIS RECORD ARE MEANINGLESS.
+HETATM    1  N   UNL X   1      -3.352   0.253  -0.311  1.00  0.00      SYST N1+
+HETATM    2  H1  UNL X   1      -3.336   0.326  -1.355  1.00  0.00      SYST H  
+HETATM    3  H2  UNL X   1      -3.264  -0.751  -0.032  1.00  0.00      SYST H  
+HETATM    4  H3  UNL X   1      -4.274   0.613   0.028  1.00  0.00      SYST H  
+HETATM    5  CA  UNL X   1      -2.269   1.062   0.265  1.00  0.00      SYST C  
+HETATM    6  HA  UNL X   1      -2.489   2.132   0.053  1.00  0.00      SYST H  
+HETATM    7  C   UNL X   1      -2.233   0.934   1.766  1.00  0.00      SYST C  
+HETATM    8  O   UNL X   1      -2.183  -0.156   2.315  1.00  0.00      SYST O  
+HETATM    9  CB  UNL X   1      -0.897   0.760  -0.384  1.00  0.00      SYST C  
+HETATM   10  HB2 UNL X   1      -0.935   1.082  -1.448  1.00  0.00      SYST H  
+HETATM   11  HB3 UNL X   1      -0.126   1.386   0.115  1.00  0.00      SYST H  
+HETATM   12  CG  UNL X   1      -0.475  -0.722  -0.336  1.00  0.00      SYST C  
+HETATM   13  HG2 UNL X   1      -1.196  -1.328  -0.925  1.00  0.00      SYST H  
+HETATM   14  HG3 UNL X   1      -0.477  -1.101   0.707  1.00  0.00      SYST H  
+HETATM   15  CD  UNL X   1       0.919  -0.935  -0.941  1.00  0.00      SYST C  
+HETATM   16  HD2 UNL X   1       1.089  -2.026  -1.069  1.00  0.00      SYST H  
+HETATM   17  HD3 UNL X   1       0.971  -0.458  -1.943  1.00  0.00      SYST H  
+HETATM   18  NE  UNL X   1       1.970  -0.392  -0.079  1.00  0.00      SYST N  
+HETATM   19  HE  UNL X   1       1.727   0.026   0.848  1.00  0.00      SYST H  
+HETATM   20  CZ  UNL X   1       3.349  -0.438  -0.464  1.00  0.00      SYST C  
+HETATM   21  O2  UNL X   1       3.687  -0.947  -1.567  1.00  0.00      SYST O  
+HETATM   22  NH1 UNL X   1       4.351   0.095   0.402  1.00  0.00      SYST N  
+HETATM   23 HH11 UNL X   1       5.357   0.064   0.126  1.00  0.00      SYST H  
+HETATM   24 HH12 UNL X   1       4.089   0.521   1.318  1.00  0.00      SYST H  
+CONECT    1    2    3    4    5
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1
+CONECT    5    1    6    7    9
+CONECT    6    5
+CONECT    7    5    8
+CONECT    8    7
+CONECT    9    5   10   11   12
+CONECT   10    9
+CONECT   11    9
+CONECT   12    9   13   14   15
+CONECT   13   12
+CONECT   14   12
+CONECT   15   12   16   17   18
+CONECT   16   15
+CONECT   17   15
+CONECT   18   15   19   20
+CONECT   19   18
+CONECT   20   18   21   22
+CONECT   21   20
+CONECT   22   20   23   24
+CONECT   23   22
+CONECT   24   22
+END

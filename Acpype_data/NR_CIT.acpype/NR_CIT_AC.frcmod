@@ -1,0 +1,22 @@
+Remark line goes here
+MASS
+
+BOND
+CZ-O   758.10   1.172       same as c1- o, penalty score=  0.0
+
+ANGLE
+CZ-CT-N3   66.300     112.060   same as c1-c3-n4, penalty score=  0.0
+CT-CZ-O    57.930     180.000   Calculated using c3-c1- o, penalty score=  0.0
+CZ-CT-HP   50.000     110.000   same as HC-CT-CZ, penalty score=  0.1
+N -C -N    72.900     113.560   same as n -c -n , penalty score=  0.0
+
+DIHE
+
+IMPROPER
+N -N -C -O          1.1          180.0         2.0          Using the default value
+C -H -N -H          1.1          180.0         2.0          Using the default value
+
+NONBON
+
+
+

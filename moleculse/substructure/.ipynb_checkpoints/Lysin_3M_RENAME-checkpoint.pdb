@@ -1,0 +1,76 @@
+HEADER    
+TITLE     MDANALYSIS FRAME 0: Created by PDBWriter
+CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1
+REMARK     285 UNITARY VALUES FOR THE UNIT CELL AUTOMATICALLY SET
+REMARK     285 BY MDANALYSIS PDBWRITER BECAUSE UNIT CELL INFORMATION
+REMARK     285 WAS MISSING.
+REMARK     285 PROTEIN DATA BANK CONVENTIONS REQUIRE THAT
+REMARK     285 CRYST1 RECORD IS INCLUDED, BUT THE VALUES ON
+REMARK     285 THIS RECORD ARE MEANINGLESS.
+ATOM      1  N   K3M A   1       4.192  -1.449  -1.229  1.00  0.00      A    N  
+ATOM      2  CA  K3M A   1       3.079  -0.535  -0.963  1.00  0.00      A    C  
+ATOM      3  C   K3M A   1       3.529   0.882  -1.197  1.00  0.00      A    C  
+ATOM      4  O   K3M A   1       4.436   1.366  -0.538  1.00  0.00      A    O  
+ATOM      5  CB  K3M A   1       2.534  -0.736   0.472  1.00  0.00      A    C  
+ATOM      6  CG  K3M A   1       1.325   0.154   0.820  1.00  0.00      A    C  
+ATOM      7  CD  K3M A   1       0.063  -0.209   0.021  1.00  0.00      A    C  
+ATOM      8  CE  K3M A   1      -1.157   0.589   0.538  1.00  0.00      A    C  
+ATOM      9  NZ  K3M A   1      -2.440   0.333  -0.188  1.00  0.00      A    N1+
+ATOM     10  C7  K3M A   1      -3.495   1.163   0.443  1.00  0.00      A    C  
+ATOM     11  C8  K3M A   1      -2.844  -1.090  -0.083  1.00  0.00      A    C  
+ATOM     12  C9  K3M A   1      -2.338   0.717  -1.617  1.00  0.00      A    C  
+ATOM     13  H1  K3M A   1       3.837  -2.432  -1.182  1.00  0.00      A    H  
+ATOM     14  H2  K3M A   1       4.917  -1.345  -0.481  1.00  0.00      A    H  
+ATOM     15  HA  K3M A   1       2.275  -0.764  -1.694  1.00  0.00      A    H  
+ATOM     16  H4  K3M A   1       3.043   1.483  -1.959  1.00  0.00      A    H  
+ATOM     17  HB2 K3M A   1       2.248  -1.802   0.610  1.00  0.00      A    H  
+ATOM     18  HB3 K3M A   1       3.344  -0.522   1.203  1.00  0.00      A    H  
+ATOM     19  HG2 K3M A   1       1.579   1.224   0.661  1.00  0.00      A    H  
+ATOM     20  HG3 K3M A   1       1.114   0.023   1.904  1.00  0.00      A    H  
+ATOM     21  HD2 K3M A   1      -0.118  -1.298   0.129  1.00  0.00      A    H  
+ATOM     22  HD3 K3M A   1       0.242   0.030  -1.045  1.00  0.00      A    H  
+ATOM     23  HE2 K3M A   1      -1.286   0.353   1.620  1.00  0.00      A    H  
+ATOM     24  HE3 K3M A   1      -0.905   1.673   0.481  1.00  0.00      A    H  
+ATOM     25  H13 K3M A   1      -3.621   0.903   1.518  1.00  0.00      A    H  
+ATOM     26  H14 K3M A   1      -3.244   2.246   0.379  1.00  0.00      A    H  
+ATOM     27  H15 K3M A   1      -4.480   1.017  -0.056  1.00  0.00      A    H  
+ATOM     28  H16 K3M A   1      -2.837  -1.431   0.977  1.00  0.00      A    H  
+ATOM     29  H17 K3M A   1      -3.869  -1.246  -0.487  1.00  0.00      A    H  
+ATOM     30  H18 K3M A   1      -2.170  -1.752  -0.668  1.00  0.00      A    H  
+ATOM     31  H19 K3M A   1      -1.940   1.751  -1.725  1.00  0.00      A    H  
+ATOM     32  H20 K3M A   1      -3.334   0.679  -2.113  1.00  0.00      A    H  
+ATOM     33  H21 K3M A   1      -1.678   0.026  -2.183  1.00  0.00      A    H  
+CONECT    1    2   13   14
+CONECT    2    1    3    5   15
+CONECT    3    2    4   16
+CONECT    4    3
+CONECT    5    2    6   17   18
+CONECT    6    5    7   19   20
+CONECT    7    6    8   21   22
+CONECT    8    7    9   23   24
+CONECT    9    8   10   11   12
+CONECT   10    9   25   26   27
+CONECT   11    9   28   29   30
+CONECT   12    9   31   32   33
+CONECT   13    1
+CONECT   14    1
+CONECT   15    2
+CONECT   16    3
+CONECT   17    5
+CONECT   18    5
+CONECT   19    6
+CONECT   20    6
+CONECT   21    7
+CONECT   22    7
+CONECT   23    8
+CONECT   24    8
+CONECT   25   10
+CONECT   26   10
+CONECT   27   10
+CONECT   28   11
+CONECT   29   11
+CONECT   30   11
+CONECT   31   12
+CONECT   32   12
+CONECT   33   12
+END
